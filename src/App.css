@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vegetables {
+  padding: 100px;
+  display: flex;
+  gap: 12px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.todos-container {
+  display: flex;
+  gap: 12px;
+}
+
+.todo {
+  width: 100px;
+  height: 100px;
+  border: 1px seagreen solid;
+  padding : 5px;
+  border-radius: 8px;
+}

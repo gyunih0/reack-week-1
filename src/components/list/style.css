@@ -1,0 +1,23 @@
+.list-container {
+  padding: 0 24px;
+}
+
+.list-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-wrapper.done::before {
+  content: "";
+  border-bottom: 1px solid rgb(222, 220, 220);
+  position: relative;
+  top: -60px;
+  width: 100%;
+}
+
+.list-title {
+  color: #464545;
+  font-size: 21px;
+}

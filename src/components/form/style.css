@@ -1,0 +1,46 @@
+.add-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: #eee;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 30px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.input-group {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #4e4d4d;
+}
+
+.add-input {
+  border: none;
+  border-radius: 12px;
+  height: 40px;
+  padding: 0 12px;
+  width: 240px;
+}
+
+.add-button {
+  background-color: rgb(67, 110, 250);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  height: 40px;
+  width: 130px;
+}
+
+.add-button:hover {
+  background-color: rgb(87, 126, 254);
+}
